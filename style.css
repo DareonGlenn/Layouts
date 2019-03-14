@@ -26,7 +26,6 @@
 .layout-1 #topHeader{
     background-color:red;
     padding-left: 20px;
-    float: left;
     width: 70%;
     padding-bottom: 40px;
     padding-left: 200px;
@@ -35,24 +34,23 @@
 }
 
 .layout-1 nav{
-    background-color:rgba(17, 0, 255, 0.767);
-    float: left;
+    background-color:blue;
     width: 100%;
-    padding-bottom: 1.5px;
-    padding-left: 200px;
-    padding-top: 1.5px;
+    padding-bottom: 5px;
+    padding-left: 39px;
+
 }
 
 .layout-1 section{
     background-color:green;
     float: left;
-    width: 200px;
+    width: 70%;
 }
 
 .layout-1 #sectionHeader{
     background-color:yellow;
-    float: left;
-    width: 100%;
+
+
     padding-bottom: 10px;
     padding-left: 1px;
     padding-top: 12px;
@@ -60,7 +58,7 @@
 
 .layout-1 article{
     background-color:orange;
-    float: left;
+
 }
 .layout-1 aside{
     background-color:purple;
@@ -73,12 +71,12 @@
     background-color:rgba(255, 255, 255, 0.945);
     width: 100%;
     display: inline-block;
+    margin: 10px;
 }
 
 .layout-1 footer{
     background-color: rgb(6, 173, 250);
-    float: left;
-    width: 100%;
+    clear: both;
 }
 
 #topHeader2{
@@ -94,11 +92,6 @@
 }
 .layout-2 nav{
     background-color:blue;
-    float: inherit;
-    width: 100%;
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 40px;
 
 }
 
@@ -112,15 +105,12 @@
 
 #content{
     background-color:green;
-    float: inherit;
-    width: 200%;
-    padding-top: 30px;
-    padding-bottom: 40px;
+    width: 90%;
+    clear: both;
 }
 
 .article2{
     background-color:yellow;
-    float: initial;
     width: 200%;
 }
 
@@ -146,6 +136,7 @@
 
 .layout-3 header{
     background-color:red;
+    width: 100%;
 }
 
 #sectionHeader3{
